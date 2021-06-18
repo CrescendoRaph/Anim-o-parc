@@ -1788,6 +1788,10 @@ input, select, textarea {
 		padding-top: 3em;
 	}
 
+	#agenda{
+		display: flex;
+	}
+
 /* Form */
 
 	input[type="text"],
