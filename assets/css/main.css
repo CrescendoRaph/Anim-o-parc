@@ -465,6 +465,9 @@ input, select, textarea {
 			margin-top: -75px;
 			margin-left: -75px;
 		}
+			.row.gtr-150 h1{
+				width: 100%;
+			}
 
 			.row.gtr-150 > * {
 				padding: 75px 0 0 75px;
@@ -708,6 +711,13 @@ input, select, textarea {
 					margin-top: -60px;
 					margin-left: -60px;
 				}
+					.row.gtr-150 h1{
+						text-align: center;
+						font-size: 2em;
+						padding-top: 5px;
+						margin: 0;
+	
+					}
 
 					.row.gtr-150 > * {
 						padding: 60px 0 0 60px;
@@ -1861,15 +1871,6 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.image:before {
-			background: url("images/overlay.png");
-			content: '';
-			height: 100%;
-			left: 0;
-			position: absolute;
-			top: 0;
-			width: 100%;
-		}
 
 		.image.fit {
 			display: block;
@@ -2250,6 +2251,40 @@ input, select, textarea {
 			color: inherit;
 			padding: 4em;
 		}
+
+		.content{
+			width: 100%;
+
+		}
+
+			.content section{
+				display: flex;
+				flex-flow: row;
+				justify-content: space-around;
+				text-align: center;
+			}
+
+				.content img{
+					width: 200px;
+					height: 300px;
+					object-fit: cover;
+					border:2px solid #fff;
+					-moz-box-shadow: 8px 8px 5px #ccc;
+					-webkit-box-shadow: 8px 8px 5px #ccc;
+					box-shadow: 8px 8px 5px #ccc;
+					-moz-border-radius:25px;
+					-webkit-border-radius:25px;
+					border-radius:25px;
+				  }
+				  
+
+				.titre h3{
+					text-decoration: underline;
+					margin: 50px;
+				}
+				.content p{
+					margin: 10px;
+				}
 
 /* Header */
 
