@@ -1790,6 +1790,8 @@ input, select, textarea {
 
 	#agenda{
 		display: flex;
+		justify-content: center;
+		top: 0;
 	}
 
 /* Form */
@@ -2205,11 +2207,9 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
-			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
+			background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
-			background-size: 25em, 25em;
 			color: #fff;
 		}
 
@@ -2295,13 +2295,10 @@ input, select, textarea {
 
 
 	#header {
-		background: rgb(255, 255, 255);
-		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
 		color: inherit;
 		cursor: default;
 		font-size: 0.8em;
 		left: 0;
-		padding: 1em 1.5em;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -2462,7 +2459,7 @@ input, select, textarea {
 			}
 
 			.dropotron > li:hover > a {
-				background: #83d3c9;
+				background: #177448;
 				color: #fff;
 			}
 
@@ -2498,7 +2495,7 @@ input, select, textarea {
 
 	#logo{
 		position: absolute;
-		top: 20px;
+		top: 45px;
 		z-index: 999;
 	}
 	.video.container{
@@ -2516,7 +2513,7 @@ input, select, textarea {
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
-		padding: 7em 0;
+		padding: 2em 0;
 	}
 
 		#main > :last-child {
@@ -2539,15 +2536,16 @@ input, select, textarea {
 		padding-top: 5em;
 	}
 
+
+
 /* CTA */
 
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
 		color: #fff;
 		padding: 5em;
 		text-align: center;
@@ -2735,6 +2733,10 @@ input, select, textarea {
 
 			#main {
 				background-size: 15em;
+			}
+
+			#panoramic{
+				position: relative;
 			}
 
 		/* CTA */
