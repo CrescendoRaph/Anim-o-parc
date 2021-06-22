@@ -26,7 +26,7 @@
                     ]
                   ],
                   'Subject' => "Greetings from Mailjet.",
-                  'TextPart' => "My first Mailjet email",
+                  'TextPart' => "$email, $message",
                   'CustomID' => "AppGettingStartedTest"
                 ]
               ]
